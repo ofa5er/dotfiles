@@ -1,0 +1,11 @@
+# AutoComplete
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Increase history size
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=100000
+setopt appendhistory
+
+# shorcuts like emacs
+bindkey -e
